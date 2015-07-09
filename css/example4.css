@@ -1,0 +1,106 @@
+body {
+  background: #fafafa;
+  color: #fafafa;
+  font-family: 'open sans', sans-serif;
+  margin: 0; }
+
+body, html {
+  height: 100%; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+a {
+  color: dodgerblue;
+  text-decoration: none; }
+  a:hover {
+    color: #005db7; }
+
+.content {
+  padding: 20px; }
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+  .index .content {
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 0; }
+    .index .content a {
+      display: inline-block;
+      padding: 20px; }
+
+.one {
+  background: #2ecc71; }
+
+.two {
+  background: #3498db; }
+
+.three {
+  background: #f1c40f; }
+
+.four {
+  background: #e74c3c; }
+
+.five {
+  background: #9b59b6; }
+
+h2 {
+  margin: 5px 0;
+  font-weight: 400; }
+
+p {
+  margin: 5px 0;
+  font-weight: 300; }
+
+.container {
+  min-height: 100%;
+  background: #3498db;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; }
+
+.list-wrapper {
+  max-width: 800px;
+  background: #9b59b6; }
+
+h3 {
+  text-align: center; }
+
+.list-container {
+  border: 1px solid white;
+  display: flex;
+  flex-flow: column; }
+
+.list-row {
+  display: flex;
+  background: #2ecc71; }
+  .list-row:not(:last-child) {
+    border-bottom: 1px solid white; }
+
+.list-data {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center; }
+  .list-data-name {
+    flex: 0 0 25%;
+    background: #f1c40f; }
+  .list-data-description {
+    flex: 1;
+    background: #e74c3c; }
+  .list-data-button {
+    justify-content: center;
+    margin-left: auto;
+    min-width: 16%; }
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border: 1px solid white; }

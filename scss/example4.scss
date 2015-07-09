@@ -1,0 +1,62 @@
+@import 'base';
+
+.container {
+	min-height: 100%;
+	background: $blue;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.list-wrapper {
+	max-width: 800px;
+	background: $purple;
+}
+
+h3 {
+	text-align: center;
+}
+
+.list-container {
+	border: 1px solid white;
+	display: flex;
+	flex-flow: column;
+}
+
+.list-row {
+	display: flex;
+	background: $green;
+	&:not(:last-child) {
+		border-bottom: 1px solid white;		
+	}
+}
+
+.list-data {
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+	&-name {
+		flex: 0 0 25%;
+		background: $gold;
+	}
+	&-description {
+		flex: 1;
+		background: $red;
+	}
+	&-button {
+		justify-content: center;	
+		margin-left: auto;
+		min-width: 16%;
+	}
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	background: $blue;
+	color: white;
+	border: 1px solid white;
+}

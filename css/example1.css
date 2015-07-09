@@ -1,0 +1,65 @@
+body {
+  background: #fafafa;
+  color: #fafafa;
+  font-family: 'open sans', sans-serif;
+  margin: 0; }
+
+body, html {
+  height: 100%; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+a {
+  color: dodgerblue;
+  text-decoration: none; }
+  a:hover {
+    color: #005db7; }
+
+.content {
+  padding: 20px; }
+
+.index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+  .index .content {
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 0; }
+    .index .content a {
+      display: inline-block;
+      padding: 20px; }
+
+.one {
+  background: #2ecc71; }
+
+.two {
+  background: #3498db; }
+
+.three {
+  background: #f1c40f; }
+
+.four {
+  background: #e74c3c; }
+
+.five {
+  background: #9b59b6; }
+
+h2 {
+  margin: 5px 0;
+  font-weight: 400; }
+
+p {
+  margin: 5px 0;
+  font-weight: 300; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.content {
+  width: 200px; }

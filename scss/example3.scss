@@ -1,0 +1,58 @@
+@import 'base';
+
+header {
+	display: flex;
+	width: 100%;
+	background: $blue;
+	padding: 10px;
+	align-items: center;
+}
+
+footer {
+	width: 100%;
+	background: $purple;
+	padding: 20px;
+}
+
+.header-content {
+	height: 30px;
+	width: 100px;
+	padding: 5px;
+	background: $blue;
+	background: $red;
+	margin: 5px;
+}
+
+.logo {
+	height: 60px;
+	margin-right: auto;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.body-container {
+	display: flex;
+	width: 100%;
+	flex: 1;
+}
+
+.sidebar {
+	background: $gold;
+	padding: 20px;
+	flex: 0 0 100px;
+}
+
+.content {
+	background: $red;
+	flex: 2;
+}
+
+.aside {
+	background: $green;
+	padding: 20px;
+	flex: 0 0 200px;
+}

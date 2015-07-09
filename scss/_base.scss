@@ -1,0 +1,78 @@
+$green: #2ecc71;
+$blue: #3498db;
+$gold: #f1c40f;
+$red: #e74c3c;
+$purple: #9b59b6;
+
+body {
+	background: #fafafa;
+	color: #fafafa;
+	font-family: 'open sans', sans-serif;
+	margin: 0;
+}
+
+body, html {
+	height: 100%;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+a {
+	color: dodgerblue;
+	text-decoration: none;
+	&:hover {
+		color: darken(dodgerblue, 20);
+	}
+}
+
+.content {
+	padding: 20px;
+}
+
+.index {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	.content {
+		margin: 10px;
+		background: rgba(0,0,0,0.2);
+		border-radius: 3px;
+		padding: 0;
+		a {
+			display: inline-block;
+			padding: 20px;
+		}
+	}
+}
+
+.one {
+	background: $green;
+}
+
+.two {
+	background: $blue;
+}
+
+.three {
+	background: $gold;
+}
+
+.four {
+	background: $red;
+}
+
+.five {
+	background: $purple;
+}
+
+h2 {
+	margin: 5px 0;
+	font-weight: 400;
+}
+p {
+	margin: 5px 0;
+	font-weight: 300;
+}

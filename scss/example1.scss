@@ -1,0 +1,33 @@
+@import 'base';
+
+.container {
+
+	display: flex;
+	flex-direction: row;
+	// flex-direction: row-reverse;
+	// flex-direction: column;
+	// flex-direction: column-reverse;
+
+	// flex-wrap: nowrap;
+	flex-wrap: wrap;
+	// flex-wrap: wrap-reverse;
+}
+
+.content {
+	width: 200px;
+	// flex-grow: 1;
+}
+
+.two {
+	// flex-grow: 1;
+	// flex-shrink: 3;
+	// order: -1;
+	// flex-basis: 400px;
+	// flex: 0 0 auto;
+	// margin-left: auto;
+}
+
+.three {
+	// flex-grow: 3;
+}
+

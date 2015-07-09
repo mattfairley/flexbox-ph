@@ -1,0 +1,26 @@
+@import 'base';
+
+.container {
+
+	display: flex;
+	// justify-content: flex-start;
+	// justify-content: flex-end;
+	justify-content: center;
+	// justify-content: space-between;
+	// justify-content: space-around;
+
+//align items
+	// height: 600px;
+	// align-items: flex-start;
+	// align-items: flex-end;
+	align-items: center;
+	// align-items: stretch;
+	// align-items: baseline;
+
+}
+
+.content {
+	width: 300px;
+	margin: 20px;
+
+}
